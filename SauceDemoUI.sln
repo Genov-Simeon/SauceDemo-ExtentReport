@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SauceDemoUI.Customizations", "SauceDemoUI.Customizations\SauceDemoUI.Customizations.csproj", "{B0200EF4-D751-4C4F-8BC5-EA5C11665282}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SauceDemoUI.Tests", "SauceDemoUI.Tests\SauceDemoUI.Tests.csproj", "{614F466A-5173-4D6F-B54A-BB9B3C48636F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0200EF4-D751-4C4F-8BC5-EA5C11665282} = {B0200EF4-D751-4C4F-8BC5-EA5C11665282}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DEVChrome|Any CPU = DEVChrome|Any CPU
+		DEVFirefox|Any CPU = DEVFirefox|Any CPU
+		QAChrome|Any CPU = QAChrome|Any CPU
+		QAFirefox|Any CPU = QAFirefox|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0200EF4-D751-4C4F-8BC5-EA5C11665282}.DEVChrome|Any CPU.ActiveCfg = DEVChrome|Any CPU
+		{B0200EF4-D751-4C4F-8BC5-EA5C11665282}.DEVChrome|Any CPU.Build.0 = DEVChrome|Any CPU
+		{B0200EF4-D751-4C4F-8BC5-EA5C11665282}.DEVFirefox|Any CPU.ActiveCfg = DEV.Firefox|Any CPU
+		{B0200EF4-D751-4C4F-8BC5-EA5C11665282}.DEVFirefox|Any CPU.Build.0 = DEV.Firefox|Any CPU
+		{B0200EF4-D751-4C4F-8BC5-EA5C11665282}.QAChrome|Any CPU.ActiveCfg = QAChrome|Any CPU
+		{B0200EF4-D751-4C4F-8BC5-EA5C11665282}.QAChrome|Any CPU.Build.0 = QAChrome|Any CPU
+		{B0200EF4-D751-4C4F-8BC5-EA5C11665282}.QAFirefox|Any CPU.ActiveCfg = QA|Any CPU
+		{B0200EF4-D751-4C4F-8BC5-EA5C11665282}.QAFirefox|Any CPU.Build.0 = QA|Any CPU
+		{614F466A-5173-4D6F-B54A-BB9B3C48636F}.DEVChrome|Any CPU.ActiveCfg = DEVChrome|Any CPU
+		{614F466A-5173-4D6F-B54A-BB9B3C48636F}.DEVChrome|Any CPU.Build.0 = DEVChrome|Any CPU
+		{614F466A-5173-4D6F-B54A-BB9B3C48636F}.DEVFirefox|Any CPU.ActiveCfg = DEVFirefox|Any CPU
+		{614F466A-5173-4D6F-B54A-BB9B3C48636F}.DEVFirefox|Any CPU.Build.0 = DEVFirefox|Any CPU
+		{614F466A-5173-4D6F-B54A-BB9B3C48636F}.QAChrome|Any CPU.ActiveCfg = QAChrome|Any CPU
+		{614F466A-5173-4D6F-B54A-BB9B3C48636F}.QAChrome|Any CPU.Build.0 = QAChrome|Any CPU
+		{614F466A-5173-4D6F-B54A-BB9B3C48636F}.QAFirefox|Any CPU.ActiveCfg = QA|Any CPU
+		{614F466A-5173-4D6F-B54A-BB9B3C48636F}.QAFirefox|Any CPU.Build.0 = QA|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B8DDC70-86ED-4682-A595-F0B523AFF874}
+	EndGlobalSection
+EndGlobal
