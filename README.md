@@ -1,5 +1,3 @@
-# ENDAVA
-
 # Environment Variables Documentation
 
 This document explains how to configure environment variables for the SauceDemo automation project. These variables are used to manage user credentials securely and are essential for running the tests.
