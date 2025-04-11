@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SauceDemoUI.Playwright.Tests", "SauceDemoUI.Playwright.Tests\SauceDemoUI.Playwright.Tests.csproj", "{2D164A9D-59C8-4F42-9A5D-0650B46B0D48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DEV|Any CPU = DEV|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D164A9D-59C8-4F42-9A5D-0650B46B0D48}.Debug|Any CPU.ActiveCfg = QA|Any CPU
+		{2D164A9D-59C8-4F42-9A5D-0650B46B0D48}.Debug|Any CPU.Build.0 = QA|Any CPU
+		{2D164A9D-59C8-4F42-9A5D-0650B46B0D48}.DEV|Any CPU.ActiveCfg = DEV|Any CPU
+		{2D164A9D-59C8-4F42-9A5D-0650B46B0D48}.DEV|Any CPU.Build.0 = DEV|Any CPU
+		{2D164A9D-59C8-4F42-9A5D-0650B46B0D48}.Release|Any CPU.ActiveCfg = QA|Any CPU
+		{2D164A9D-59C8-4F42-9A5D-0650B46B0D48}.Release|Any CPU.Build.0 = QA|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
